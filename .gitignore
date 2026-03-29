@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+litellm.log
+.litellm.pid
+settings.json.*
