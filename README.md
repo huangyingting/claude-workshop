@@ -68,11 +68,7 @@ Update/create `~/.claude/settings.json` with the following value. This prevents 
 }
 ```
 
-### 5. Install the Claude Code VS Code extension
-
-Install the [Claude Code extension](https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code) from the VS Code marketplace. It picks up the same `~/.claude/settings.json` configuration automatically.
-
-### 6. Test the setup
+### 5. Test the setup
 
 Type `claude` and press Enter:
 
