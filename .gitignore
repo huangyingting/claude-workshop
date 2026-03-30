@@ -4,3 +4,4 @@ __pycache__/
 litellm.log
 .litellm.pid
 settings.json.*
+.env
