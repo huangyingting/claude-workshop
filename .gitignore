@@ -5,3 +5,4 @@ litellm.log
 .litellm.pid
 settings.json.*
 .env
+auth/

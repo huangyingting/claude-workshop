@@ -1,11 +1,12 @@
 services:
   litellm:
-    image: litellm/litellm:latest
+    image: litellm/litellm:v1.82.3
     container_name: litellm-proxy
     ports:
       - "4000:4000"
     volumes:
       - ./litellm/config.yaml:/app/config.yaml:ro
+      - ./litellm/auth:/root/.config/litellm
     env_file:
       - ./litellm/.env
     command: ["--config", "/app/config.yaml", "--port", "4000"]
